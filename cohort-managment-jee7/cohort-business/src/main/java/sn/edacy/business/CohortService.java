@@ -20,11 +20,7 @@ public class CohortService {
 		
 	}
 	
-	/**
+	/** 
 	 * @return list of cohorts
 	 */
-	public List<Cohort> getAllCohort() {
-		Query query =  entityManager.createQuery("select c from Cohort c");
-		return query.getResultList();
 	}
-}
